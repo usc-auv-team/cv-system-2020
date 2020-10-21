@@ -1,4 +1,3 @@
-
 # Created by Can Toraman (toraman@usc.edu)
 # October 16th, 2020
 # Written in Python3
@@ -119,6 +118,3 @@ with open("data.csv") as csvfile:
                 # moves the image under the /images directory
                 shutil.move(os.getcwd() + "/" + filename, os.getcwd() + "/images")
                 print('Image sucessfully Downloaded: ', filename)
-            
-            
-
